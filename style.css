@@ -1,17 +1,55 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Alegreya');
 
-/* (*) below means the universal symbol and applying it to everything */
-* {
-  box-sizing: border-box;
+html {
+  font-size: 62.5%;
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  overflow: hidden;
-  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Alegreya', serif;
 }
+
+/* (*) below means the universal symbol and applying it to everything */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+.container {
+  display: grid;
+  grid-template-columns: minmax(6rem, 1fr) repeat(8, minmax(min-content, 16rem)) minmax(
+      6rem,
+      1fr
+    );
+  grid-template-rows: repeat(3, min-content);
+  grid-row-gap: 1.6rem;
+  margin-top: 1.6rem;
+}
+
+.social-icons {
+  grid-column: 2 / 4;
+  grid-row: 1 / 2;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+  align-items: center;
+}
+
+.social-icon {
+  font-size: 1.8rem;
+  color: red;
+  transition: all 0.2s;
+}
+
+.social-icon {
+  color: grey;
+  transform: rotateZ(360deg);
+}
+
+.first-nav {
+  grid-column: 6 / 10;
+  grid-row: 1 / 2;
+}
+/* End of Navbar */
