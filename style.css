@@ -39,12 +39,12 @@ body {
 
 .social-icon {
   font-size: 1.8rem;
-  color: grey;
+  color: red;
   transition: all 0.2s;
 }
 
-.social-icon {
-  color: red;
+.social-icon:hover {
+  color: grey;
   transform: rotateZ(360deg);
 }
 
@@ -62,7 +62,7 @@ body {
 .first-nav-link {
   text-decoration: none;
   font-size: 1.6rem;
-  color: grey;
+  color: red;
   display: inline-block;
   width: 100%;
   text-align: center;
@@ -72,7 +72,7 @@ body {
   content: '';
   width: 0;
   height: 0.1rem;
-  background-color: grey;
+  background-color: red;
   display: block;
   margin: auto;
   transition: width 0.2s cubic-bezier(0.55, 0, 0.98, 0.54);
@@ -87,7 +87,6 @@ body {
   color: red;
 }
 
-,
 .first-nav-link i {
   font-size: 1.3rem;
   margin-right: 0.3rem;
