@@ -44,7 +44,7 @@ body {
 }
 
 .social-icon:hover {
-  color: red;
+  color: grey;
   transform: rotateZ(360deg);
 }
 
@@ -72,7 +72,7 @@ body {
   content: '';
   width: 0;
   height: 0.1rem;
-  background-color: grey;
+  background-color: red;
   display: block;
   margin: auto;
   transition: width 0.2s cubic-bezier(0.55, 0, 0.98, 0.54);
