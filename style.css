@@ -62,7 +62,7 @@ body {
 .first-nav-link {
   text-decoration: none;
   font-size: 1.6rem;
-  color: red;
+  color: grey;
   display: inline-block;
   width: 100%;
   text-align: center;
@@ -72,7 +72,7 @@ body {
   content: '';
   width: 0;
   height: 0.1rem;
-  background-color: red;
+  background-color: grey;
   display: block;
   margin: auto;
   transition: width 0.2s cubic-bezier(0.55, 0, 0.98, 0.54);
