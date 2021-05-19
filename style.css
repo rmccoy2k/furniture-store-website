@@ -39,12 +39,12 @@ body {
 
 .social-icon {
   font-size: 1.8rem;
-  color: grey;
+  color: red;
   transition: all 0.2s;
 }
 
 .social-icon:hover {
-  color: grey;
+  color: red;
   transform: rotateZ(360deg);
 }
 
