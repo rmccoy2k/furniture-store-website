@@ -23,7 +23,7 @@ body {
       6rem,
       1fr
     );
-  grid-template-rows: repeat(3, min-content);
+  grid-template-rows: repeat(3, min-content) 70vh repeat(5, min-content);
   grid-row-gap: 1.6rem;
   margin-top: 1.6rem;
 }
@@ -98,6 +98,7 @@ body {
 }
 
 .search-form {
+  display: grid;
   grid-template-columns: repeat(10, 10%);
 }
 
@@ -140,7 +141,7 @@ body {
   font-size: 1.4rem;
   color: grey;
   padding: 0.8rem 0;
-  transition: all 0.5s;
+  transition: all 0.5s 0.3s;
 }
 
 .second-nav-item:hover .second-nav-link {
@@ -153,7 +154,7 @@ body {
   content: '';
   width: 0;
   height: 0.1rem;
-  background-color: grey;
+  background-color: #fff;
   display: block;
   transition: width 0.3s cubic-bezier(0.55, 0, 0.98, 0.54);
   background-color: 0.5s 0.3s;
@@ -168,7 +169,6 @@ body {
   width: 100%;
   background-color: #fff;
 }
-
 .second-nav-item:first-child {
   position: relative;
 }
@@ -183,6 +183,7 @@ body {
   grid-template-columns: repeat(7, 10rem);
   visibility: hidden;
   opacity: 0;
+  z-index: 100;
   transition: all 1s;
 }
 
