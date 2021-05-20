@@ -118,4 +118,58 @@ body {
   background-color: transparent;
   cursor: pointer;
 }
+
+.second-nav {
+  grid-column: 2 / 10;
+  grid-row: 3/ 4;
+  border-top: 0.1rem solid grey;
+  border-bottom: 0.1rem solid grey;
+}
+
+.second-nav-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  list-style: none;
+}
+
+.second-nav-link {
+  text-align: center;
+  display: grid;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: grey;
+  padding: 0.8rem 0;
+  transition: all 0.5s;
+}
+
+.second-nav-item:hover .second-nav-link {
+  background-color: red;
+  color: #fff;
+}
+
+.second-nav-link::before,
+.second-nav-link::after {
+  content: '';
+  width: 0;
+  height: 0.1rem;
+  background-color: grey;
+  display: block;
+  transition: width 0.3s cubic-bezier(0.55, 0, 0.98, 0.54);
+  background-color: 0.5s 0.3s;
+}
+
+.second-nav-link::after {
+  justify-self: end;
+}
+
+.second-nav-item:hover .second-nav-link::before,
+.second-nav-item:hover .second-nav-link::after {
+  width: 100%;
+  background-color: #fff;
+}
+
+.dropdown {
+  display: none;
+}
 /* End of Navbar */
