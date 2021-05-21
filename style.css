@@ -28,6 +28,7 @@ body {
   margin-top: 1.6rem;
 }
 
+/* Social Icons */
 .social-icons {
   grid-column: 2 / 4;
   grid-row: 1 / 2;
@@ -47,6 +48,7 @@ body {
   color: grey;
   transform: rotateZ(360deg);
 }
+/* End of Social Icons */
 
 .first-nav {
   grid-column: 6 / 10;
@@ -227,7 +229,6 @@ body {
 .banner {
   grid-column: 2 / 10;
   grid-row: 4 / 5;
-  background-color: #ccc;
   position: relative;
 }
 
@@ -270,6 +271,7 @@ body {
   transform: translateY(-50%);
   width: 100%;
   transition: top 0.2s;
+  text-transform: uppercase;
 }
 
 .banner-btn-text-two {
@@ -279,6 +281,7 @@ body {
   transform: translateY(-50%);
   width: 100%;
   transition: top 0.2s;
+  text-transform: uppercase;
 }
 
 .banner-btn:hover .banner-btn-text-one {
@@ -291,5 +294,18 @@ body {
 
 .slideshow {
   display: none;
+  height: 100%;
+}
+
+.slideshow-wrapper {
+  display: flex;
+  width: 400%;
+  height: 100%;
+  /* Notice that the 'width' is (400%), because it's a total of (4) images & all of the images width is set to (100%). Therefore, it must be (100%) for every single image */
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
 }
 /* End Of Banner */
