@@ -74,7 +74,7 @@ body {
   content: '';
   width: 0;
   height: 0.1rem;
-  background-color: grey;
+  background-color: red;
   display: block;
   margin: auto;
   transition: width 0.2s cubic-bezier(0.55, 0, 0.98, 0.54);
@@ -450,11 +450,33 @@ body {
 .day-offer-paragraph {
   grid-column: 3 / -1;
   grid-row: 2 / 3;
+  font-size: 3rem;
+  color: grey;
 }
 
 .day-offer-btn {
   grid-column: 3 / -1;
   grid-row: 3 / 4;
+  width: 16rem;
+  padding: 1rem;
+  font-size: 1.4rem;
+  color: #fff;
+  background: linear-gradient(
+    to top,
+    red,
+    rgb(245, 92, 92),
+    rgb(248, 146, 146)
+  );
+  border: none /*grey*/;
+  border-radius: 5rem;
+  text-transform: uppercase;
+  outline: none;
+  box-shadow: 0.2rem 0.2rem 1rem grey;
+}
+
+.day-offer-btn-hover {
+  box-shadow: 0.2rem 0.2rem 2rem grey;
+  align-self: end;
 }
 
 .day-offer-img-two {
