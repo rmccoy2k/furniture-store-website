@@ -381,6 +381,11 @@ body {
   z-index: 10;
 }
 
+.slide-btn:focus {
+  background-color: red;
+  border: 0.2rem solid #bbb;
+}
+
 .slide-btn-1 {
   left: 47%;
 }
@@ -395,5 +400,25 @@ body {
 
 .slide-btn-4 {
   left: 53%;
+}
+
+.slide-btn-1:focus ~ .slideshow-wrapper {
+  animation: none;
+  left: 0;
+}
+
+.slide-btn-2:focus ~ .slideshow-wrapper {
+  animation: none;
+  left: -100%;
+}
+
+.slide-btn-3:focus ~ .slideshow-wrapper {
+  animation: none;
+  left: -200%;
+}
+
+.slide-btn-4:focus ~ .slideshow-wrapper {
+  animation: none;
+  left: -300%;
 }
 /* End Of Banner */
