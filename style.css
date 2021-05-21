@@ -23,7 +23,7 @@ body {
       6rem,
       1fr
     );
-  grid-template-rows: repeat(3, min-content) 70vh repeat(5, min-content);
+  grid-template-rows: repeat(3, min-content) 70vh min-content;
   grid-row-gap: 1.6rem;
   margin-top: 1.6rem;
 }
@@ -422,3 +422,6 @@ body {
   left: -300%;
 }
 /* End Of Banner */
+
+/* Day Offer */
+/* End of Day Offer */
