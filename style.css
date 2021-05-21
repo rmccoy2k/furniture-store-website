@@ -177,7 +177,7 @@ body {
   position: absolute;
   top: 100%;
   width: 70rem;
-  background-color: #fffeee;
+  background-color: rgb(247, 171, 171); /*#fffeee*/
   padding: 1.6rem;
   display: grid;
   grid-template-columns: repeat(7, 10rem);
