@@ -156,10 +156,10 @@ body {
   content: '';
   width: 0;
   height: 0.1rem;
-  background-color: #fff;
+  background-color: red;
   display: block;
-  transition: width 0.3s cubic-bezier(0.55, 0, 0.98, 0.54);
-  background-color: 0.5s 0.3s;
+  transition: width 0.3s cubic-bezier(0.55, 0, 0.98, 0.54),
+    background-color 0.5s 0.3s;
 }
 
 .second-nav-link::after {
@@ -179,7 +179,7 @@ body {
   position: absolute;
   top: 100%;
   width: 70rem;
-  background-color: rgb(247, 171, 171); /*#fffeee*/
+  background-color: /*#fffeee;*/ #fff;
   padding: 1.6rem;
   display: grid;
   grid-template-columns: repeat(7, 10rem);
@@ -239,6 +239,7 @@ body {
   transform: translate(-50%, -50%);
   text-transform: uppercase;
   text-align: center;
+  z-index: 50;
 }
 
 .banner-heading {
@@ -294,12 +295,15 @@ body {
 
 .slideshow {
   height: 100%;
+  overflow: hidden;
 }
 
 .slideshow-wrapper {
   display: flex;
   width: 400%;
   height: 100%;
+  position: relative;
+  animation: slideshow 20s infinite;
   /* Notice that the 'width' is (400%), because it's a total of (4) images & all of the images width is set to (100%). Therefore, it must be (100%) for every single image */
 }
 
@@ -307,5 +311,59 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+@keyframes slideshow {
+  0% {
+    left: 0;
+  }
+
+  10% {
+    left: 0;
+  }
+
+  15% {
+    left: -100%;
+  }
+
+  25% {
+    left: -100%;
+  }
+
+  30% {
+    left: -200%;
+  }
+
+  40% {
+    left: -200%;
+  }
+
+  45% {
+    left: -300%;
+  }
+
+  55% {
+    left: -300%;
+  }
+
+  60% {
+    left: -200%;
+  }
+
+  70% {
+    left: -200%;
+  }
+
+  75% {
+    left: -100%;
+  }
+
+  85% {
+    left: -100%;
+  }
+
+  90% {
+    left: 0;
+  }
 }
 /* End Of Banner */
