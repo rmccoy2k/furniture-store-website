@@ -366,4 +366,34 @@ body {
     left: 0;
   }
 }
+
+.slide-btn {
+  width: 1.3rem;
+  height: 1.3rem;
+  background-color: #bbb;
+  border: 0.2rem solid red; /*#d38800*/
+  border-radius: 50%;
+  cursor: pointer;
+  outline: none;
+  position: absolute;
+  top: 95%;
+  transform: translateX(-50%);
+  z-index: 10;
+}
+
+.slide-btn-1 {
+  left: 47%;
+}
+
+.slide-btn-2 {
+  left: 49%;
+}
+
+.slide-btn-3 {
+  left: 51%;
+}
+
+.slide-btn-4 {
+  left: 53%;
+}
 /* End Of Banner */
