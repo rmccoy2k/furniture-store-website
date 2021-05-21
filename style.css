@@ -424,4 +424,12 @@ body {
 /* End Of Banner */
 
 /* Day Offer */
+.day-offer {
+  grid-column: 2 / 10;
+  grid-row: 5 / 6;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, min-content);
+  grid-gap: 1.6rem 3.2rem;
+}
 /* End of Day Offer */
