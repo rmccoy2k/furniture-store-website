@@ -506,7 +506,7 @@ body {
 }
 
 .bestselling-furniture-card {
-  background-color: #bbb;
+  background-color: #efefef;
 }
 
 .bestselling-furniture-img {
@@ -515,13 +515,29 @@ body {
 }
 
 .bestselling-furniture-heading {
-  background-color: red;
+  background-color: #fffddd;
   width: 80%;
   margin: auto;
   text-align: center;
   font-size: 2.4rem;
-  color: #fff;
+  color: red;
   padding: 0.5rem 0;
   border-radius: 0.2rem;
+  transform: translateY(-50%);
+}
+
+.bestselling-furniture-paragraph {
+  font-size: 1.9rem;
+  color: grey;
+  text-align: center;
+  margin-bottom: 1.6rem;
+}
+
+.bestselling-furniture-btn {
+  width: 100%;
+  padding: 1.6rem 0;
+  background-color: red;
+  font-size: 1.9rem;
+  color: #fff;
 }
 /* Bestselling furniture */
