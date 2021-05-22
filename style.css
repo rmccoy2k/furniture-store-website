@@ -23,7 +23,7 @@ body {
       6rem,
       1fr
     );
-  grid-template-rows: repeat(3, min-content) 70vh min-content;
+  grid-template-rows: repeat(3, min-content) 70vh repeat(5, min-content);
   grid-row-gap: 1.6rem;
   margin-top: 1.6rem;
 }
@@ -484,5 +484,44 @@ body {
   width: 100%;
   align-self: end;
 }
-
 /* End of Day Offer */
+
+/* Bestselling furniture */
+.bestselling-furniture {
+  grid-column: 2 / 10;
+  grid-row: 6 / 7;
+}
+
+.bestselling-furniture-header {
+  font-size: 4.5rem;
+  color: red;
+  text-align: center;
+  margin: 3rem 0;
+}
+
+.bestselling-furniture-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  grid-gap: 6.4rem;
+}
+
+.bestselling-furniture-card {
+  background-color: #bbb;
+}
+
+.bestselling-furniture-img {
+  width: 100%;
+  border-radius: 0.3rem 0.3rem 0 0;
+}
+
+.bestselling-furniture-heading {
+  background-color: red;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  font-size: 2.4rem;
+  color: #fff;
+  padding: 0.5rem 0;
+  border-radius: 0.2rem;
+}
+/* Bestselling furniture */
