@@ -476,12 +476,13 @@ body {
 
 .day-offer-btn-hover {
   box-shadow: 0.2rem 0.2rem 2rem grey;
-  align-self: end;
 }
 
 .day-offer-img-two {
   grid-column: 3 / -1;
   grid-row: 4 / -1;
   width: 100%;
+  align-self: end;
 }
+
 /* End of Day Offer */
