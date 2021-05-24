@@ -669,7 +669,7 @@ body {
   transition: background-color 0.2s;
 }
 
-.contact-btn-hover {
+.contact-btn:hover {
   background-color: #efefef;
 }
 /* End of Contact */
