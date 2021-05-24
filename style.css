@@ -639,4 +639,10 @@ body {
   background-color: grey;
   padding: 2rem;
 }
+
+.contact-header {
+  justify-self: end;
+  font-size: 2rem;
+  color: #fff;
+}
 /* End of Contact */
