@@ -671,5 +671,6 @@ body {
 
 .contact-btn:hover {
   background-color: #efefef;
+  color: red;
 }
 /* End of Contact */
