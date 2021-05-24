@@ -645,4 +645,8 @@ body {
   font-size: 2rem;
   color: #fff;
 }
+
+.contact-form {
+  display: flex;
+}
 /* End of Contact */
