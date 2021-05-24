@@ -628,3 +628,13 @@ body {
   grid-row: 3 / 5;
 }
 /* End of Gallery */
+
+/* Contact */
+.contact {
+  grid-column: 1 / -1;
+  grid-row: 8 / 9;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 3rem;
+}
+/* End of Contact */
