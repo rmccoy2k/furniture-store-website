@@ -636,5 +636,7 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-column-gap: 3rem;
+  background-color: grey;
+  padding: 2rem;
 }
 /* End of Contact */
