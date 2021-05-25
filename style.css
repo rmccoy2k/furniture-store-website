@@ -748,6 +748,12 @@ body {
 }
 
 .form-input {
-  width: ;
+  width: 100%;
+}
+
+.form-btn {
+  width: 35%;
+  background-color: red;
+  color: #fff;
 }
 /* End of Model Box */
