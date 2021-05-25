@@ -693,5 +693,14 @@ body {
   top: 50%;
   left: 50%;
   transform-box: translate(-50%, -50%);
+  z-index: 1000;
+  padding: 2rem;
+  border: 0.1rem solid red;
+  border-radius: 0.3rem;
+}
+
+.show-btns-wrapper {
+  display: flex;
+  padding: 1rem;
 }
 /* End of Model Box */
