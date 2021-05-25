@@ -716,4 +716,11 @@ body {
   border: 0.1rem solid #eee;
   cursor: pointer;
 }
+
+.form-heading {
+  font-size: 2rem;
+  color: red;
+  text-transform: uppercase;
+  padding: 1rem 0 0 0.2rem;
+}
 /* End of Model Box */
