@@ -723,4 +723,17 @@ body {
   text-transform: uppercase;
   padding: 1rem 0 0 0.2rem;
 }
+
+.forms-wrapper form {
+  width: 50rem;
+  padding: 1rem;
+}
+
+.forms-wrapper form imput:not(.form-btn) {
+  background-color: #fff;
+  color: #777;
+  padding-right: 1.3rem;
+  margin: 0.3rem 0;
+  border: 0.2rem solid #eee;
+}
 /* End of Model Box */
