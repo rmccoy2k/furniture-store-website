@@ -729,13 +729,25 @@ body {
   padding: 1rem;
 }
 
-.forms-wrapper form imput:not(.form-btn) {
+.forms-wrapper form input:not(.form-btn) {
   background-color: #fff;
   color: #777;
-  padding-right: 1.3rem;
+  padding: 1.3rem;
   margin: 0.3rem 0;
   border: 0.2rem solid #eee;
   box-sizing: border-box;
   outline: none;
+}
+
+.fullname-inputs-wrapper {
+  display: flex;
+}
+
+.fullname-inputs-wrapper input {
+  width: 50%;
+}
+
+.form-input {
+  width: ;
 }
 /* End of Model Box */
