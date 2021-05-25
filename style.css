@@ -735,5 +735,7 @@ body {
   padding-right: 1.3rem;
   margin: 0.3rem 0;
   border: 0.2rem solid #eee;
+  box-sizing: border-box;
+  outline: none;
 }
 /* End of Model Box */
