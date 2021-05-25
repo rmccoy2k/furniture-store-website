@@ -703,4 +703,11 @@ body {
   display: flex;
   padding: 1rem;
 }
+
+.show-form-btn {
+  flex: 0 1 50%;
+  background-color: red;
+  font-size: 1.5rem;
+  color: #fff;
+}
 /* End of Model Box */
