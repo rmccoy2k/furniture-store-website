@@ -547,7 +547,7 @@ body {
 .bestselling-furniture-btn-hover {
   background-color: grey;
 }
-/* Bestselling furniture */
+/* End of Bestselling furniture */
 
 /* Gallery */
 .gallery {
@@ -690,9 +690,9 @@ body {
 .forms-wrapper {
   background-color: #eee;
   position: fixed;
-  top: 50%;
+  top: 25%;
   left: 50%;
-  transform-box: translate(-50%, -50%);
+  transform: translateX(-50%);
   z-index: 1000;
   padding: 2rem;
   border: 0.1rem solid red;
@@ -764,6 +764,7 @@ body {
 .x-btn {
   font-size: 2rem;
   color: grey;
+  font-weight: bolder;
   position: absolute;
   bottom: 3.3rem;
   right: 3.5rem;
@@ -788,11 +789,15 @@ body {
 
 #show-form:checked ~ .show-btns-wrapper .show-signup-form {
   color: #fff;
-  background-color: grey;
+  background-color: red;
   pointer-events: initial;
 }
 
 #show-form:checked ~ .signup-form {
   display: none;
+}
+
+#show-form:checked ~ .login-form {
+  display: block;
 }
 /* End of Model Box */
