@@ -755,5 +755,31 @@ body {
   width: 35%;
   background-color: red;
   color: #fff;
+  letter-spacing: 0.3rem;
+  padding: 1rem;
+  border: none;
+  margin-top: 0.5rem;
+}
+
+.x-btn {
+  font-size: 2rem;
+  color: grey;
+  position: absolute;
+  bottom: 3.3rem;
+  right: 3.5rem;
+  cursor: pointer;
+}
+
+.login-form {
+  display: none;
+}
+
+.show-signup-form {
+  color: #888;
+  background-color: red;
+  pointer-events: none;
+}
+
+#show-form:checked ~ .show-btns-wrapper .show-login-form {
 }
 /* End of Model Box */
