@@ -1016,4 +1016,22 @@ body {
     grid-gap: 1rem;
     padding: 1rem;
   }
+
+  .contact {
+    grid-template-columns: 1fr;
+    grid-row-gap: 2rem;
+  }
+
+  .contact-heading {
+    font-size: 1.8rem;
+    justify-self: center;
+  }
+
+  .contact-form {
+    justify-self: center;
+  }
+
+  .forms-wrapper form {
+    width: 30rem;
+  }
 }
