@@ -885,10 +885,9 @@ body {
 
 @media (max-width: 800px) {
   .container {
-    grid-template-columns: minmax(2rem, 1fr) repeat(
-        8,
-        minmax(min-content, 16rem)
-      ) minmax(2rem, 1fr);
+    grid-template-columns:
+      minmax(2rem, 1fr) repeat(8, minmax(min-content, 16rem))
+      minmax(2rem, 1fr);
     grid-template-rows: repeat(3, min-content) 50vh repeat(5, min-content);
   }
 
@@ -898,5 +897,6 @@ body {
 
   .dropdown {
     width: 52.5rem;
+    grid-template-columns: repeat(7, 7.5rem);
   }
 }
