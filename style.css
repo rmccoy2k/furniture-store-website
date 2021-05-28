@@ -1011,4 +1011,9 @@ body {
     font-size: 1.6rem;
     text-align: center;
   }
+
+  .gallery {
+    grid-gap: 1rem;
+    padding: 1rem;
+  }
 }
