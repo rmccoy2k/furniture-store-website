@@ -950,4 +950,8 @@ body {
       minmax(1rem, 1fr) repeat(8, minmax(min-content, 16rem))
       minmax(1rem, 1fr);
   }
+
+  .first-nav-list {
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  }
 }
