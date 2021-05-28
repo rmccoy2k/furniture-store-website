@@ -899,4 +899,34 @@ body {
     width: 52.5rem;
     grid-template-columns: repeat(7, 7.5rem);
   }
+
+  .dropdown-list-link {
+    margin-bottom: 0.7rem;
+  }
+
+  .dropdown-image {
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .banner-btn {
+    width: 14rem;
+    height: 4rem;
+  }
+
+  .slide-btn-1 {
+    left: 45.5%;
+  }
+
+  .slide-btn-2 {
+    left: 48.5%;
+  }
+
+  .slide-btn-3 {
+    left: 51.5%;
+  }
+
+  .slide-btn-4 {
+    left: 54.5%;
+  }
 }
