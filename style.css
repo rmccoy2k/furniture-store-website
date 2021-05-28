@@ -848,10 +848,9 @@ body {
 
 @media (max-width: 1000px) {
   .container {
-    grid-template-columns: minmax(4rem, 1fr) repeat(
-        8,
-        minmax(min-content, 16rem)
-      ) minmax(4rem, 1fr);
+    grid-template-columns:
+      minmax(4rem, 1fr) repeat(8, minmax(min-content, 16rem))
+      minmax(4rem, 1fr);
   }
 
   .social-icons {
@@ -861,5 +860,43 @@ body {
 
   .first-nav {
     grid-column: 2 / 10;
+  }
+
+  .banner-heading {
+    font-size: 5rem;
+  }
+
+  .day-offer-heading {
+    font-size: 4.5rem;
+  }
+
+  .day-offer-paragraph {
+    font-size: 2.5rem;
+  }
+
+  .day-offer-img-one {
+    align-self: end;
+  }
+
+  .forms-wrapper form {
+    width: 40rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .container {
+    grid-template-columns: minmax(2rem, 1fr) repeat(
+        8,
+        minmax(min-content, 16rem)
+      ) minmax(2rem, 1fr);
+    grid-template-rows: repeat(3, min-content) 50vh repeat(5, min-content);
+  }
+
+  .social-icon {
+    grid-column: 2 / 6;
+  }
+
+  .dropdown {
+    width: 52.5rem;
   }
 }
