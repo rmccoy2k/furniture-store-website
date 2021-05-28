@@ -998,4 +998,17 @@ body {
   .slide-btn-4 {
     left: 56%;
   }
+
+  .day-offer {
+    grid-column-gap: 1.4rem;
+  }
+
+  .day-offer-heading {
+    font-size: 3rem;
+  }
+
+  .day-offer-paragraph {
+    font-size: 1.6rem;
+    text-align: center;
+  }
 }
