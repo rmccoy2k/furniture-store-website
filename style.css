@@ -929,4 +929,17 @@ body {
   .slide-btn-4 {
     left: 54.5%;
   }
+
+  .day-offer-heading {
+    font-size: 4rem;
+  }
+
+  .day-offer-paragraph {
+    font-size: 2rem;
+  }
+
+  .day-offer-btn {
+    width: 13rem;
+    padding: 0.8rem;
+  }
 }
