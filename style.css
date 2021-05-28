@@ -670,8 +670,8 @@ body {
 }
 
 .contact-btn:hover {
-  background-color: #efefef;
-  color: red;
+  background-color: grey;
+  /* color: red; */
 }
 /* End of Contact */
 
@@ -831,3 +831,17 @@ body {
   }
 }
 /* End of Model Box */
+
+@media (max-width: 1250px) {
+  .banner-heading {
+    font-size: 8rem;
+  }
+
+  .day-offer-heading {
+    font-size: 5rem;
+  }
+
+  .day-offer-paragraph {
+    font-size: 3rem;
+  }
+}
