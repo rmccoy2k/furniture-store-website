@@ -960,4 +960,13 @@ body {
     grid-column: 2 / 7;
     grid-template-columns: repeat(auto-fit, minmax(2rem, 1fr));
   }
+
+  .dropdown {
+    width: 30rem;
+    grid-template-columns: repeat(4, 7.5rem);
+  }
+
+  .dropdown-image {
+    display: none;
+  }
 }
